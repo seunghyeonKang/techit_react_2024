@@ -1,4 +1,5 @@
 {
+  "homepage": "https://seunghyeonkang.github.io/techit_react_2024/",
   "name": "techit",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "eslint-plugin-jsx-a11y": "^6.10.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
