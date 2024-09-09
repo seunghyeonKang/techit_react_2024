@@ -50,10 +50,10 @@ export default function MainPage() {
       <h2>Chapter04</h2>
       <p
         onClick={() => {
-          handleMoveToPage("/chapter04");
+          handleMoveToPage("/chapter04/components");
         }}
       >
-        1{")"} jsx 기초
+        1{")"} 리액트 컴포넌트 기초
       </p>
       <br />
     </>
