@@ -2,12 +2,15 @@ export default function MainPage() {
   return (
     <>
       <h1>Hello Lions!!</h1>
-      <p>It's main page</p>
+      <p>This is a main page</p>
       <br />
       <hr />
 
       <h3>chapter02</h3>
-      <p>/chapter02/deploy</p>
+      <p>/</p>
+
+      <h3>chapter03</h3>
+      <p>/chapter03/deploy</p>
     </>
   );
 }

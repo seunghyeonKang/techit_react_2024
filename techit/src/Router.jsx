@@ -8,6 +8,7 @@ export default function Router() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainPage />} />
+        <Route path="/techit_react_2024" element={<MainPage />} />
         {/* chapter02 */}
 
         {/* chapter0 */}
