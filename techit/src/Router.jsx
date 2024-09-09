@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import MainPage from "./pages/MainPage";
-import JSXBasic from "./pages/chapter03/JSXBasic";
+import JSXBasic from "./pages/chapter03/JSXBasic/JSXBasic";
 
 export default function Router() {
   return (
