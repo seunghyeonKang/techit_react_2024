@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.a04e1443.css","mappings":"AAAA,UAGE,wBAA2B,CAD3B,WAAY,CADZ,UAGF","sources":["pages/chapter03/JSXBasic.css"],"sourcesContent":[".newClass {\r\n  width: 100%;\r\n  height: 20px;\r\n  background-color: lightpink;\r\n}\r\n"],"names":[],"sourceRoot":""}
