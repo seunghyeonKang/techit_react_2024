@@ -1,0 +1,11 @@
+.list-area {
+  list-style: none;
+  padding: 0;
+}
+.list-area-item {
+  border: 1px solid lightgray;
+}
+.list-area-item.active {
+  background-color: royalblue;
+  color: white;
+}
