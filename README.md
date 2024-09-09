@@ -8,3 +8,6 @@
 
 - pages > chapter > 프로젝트 페이지 파일 / 프로젝트 컴포넌트 폴더
 - router로 페이지네이션
+
+### 배포 링크
+https://seunghyeonkang.github.io/techit_react_2024/
