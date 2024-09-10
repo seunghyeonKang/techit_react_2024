@@ -9,14 +9,16 @@ export default function MainPage() {
 
   return (
     <>
-      <h1>Hello Lions!!</h1>
-      <p
+      <h2>멋쟁이 사자처럼 스터디</h2>
+      <div
         onClick={() => {
           handleMoveToPage("");
         }}
       >
-        This is a main page
-      </p>
+        <p>
+          <strong>[ TeChit ]</strong> - 프론트엔드(React) 온보딩 트랙
+        </p>
+      </div>
       <br />
       <hr />
 
@@ -54,6 +56,27 @@ export default function MainPage() {
         }}
       >
         1{")"} 리액트 컴포넌트 기초
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter04/my-resume");
+        }}
+      >
+        2{")"} 자기소개서
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter04/color-text");
+        }}
+      >
+        3{")"} 글자에 색 입히기
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter04/datas-rendering");
+        }}
+      >
+        4{")"} 데이타 렌더링 - 구조 분해 할당
       </p>
       <br />
     </>

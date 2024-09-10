@@ -6,6 +6,9 @@ import JSXBasic from "./pages/chapter03/JSXBasic/JSXBasic";
 import DigitalClock from "./pages/chapter03/DigitalClock";
 import ListRendering from "./pages/chapter03/ListRendering/ListRendering";
 import Components from "./pages/chapter04/Components";
+import MyResume from "./pages/chapter04/Resume";
+import ColorTextPage from "./pages/chapter04/ColorText/ColorTextPage";
+import DatasPage from "./pages/chapter04/Datas";
 
 export default function Router() {
   return (
@@ -22,6 +25,9 @@ export default function Router() {
 
         {/* chapter04 */}
         <Route path="/techit_react_2024/chapter04/components" element={<Components />} />
+        <Route path="/techit_react_2024/chapter04/my-resume" element={<MyResume />} />
+        <Route path="/techit_react_2024/chapter04/color-text" element={<ColorTextPage />} />
+        <Route path="/techit_react_2024/chapter04/datas-rendering" element={<DatasPage />} />
 
         {/* chapter0 */}
         {/* chapter0 */}
