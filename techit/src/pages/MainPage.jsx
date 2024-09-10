@@ -86,6 +86,32 @@ export default function MainPage() {
         5{")"} 상품 판매 사이트
       </p>
       <br />
+
+      <hr />
+      {/* Chapter05 */}
+      <h2>Chapter05</h2>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter05/like-button");
+        }}
+      >
+        1{")"} 좋아요 버튼
+      </p>
+      <br />
+
+      <hr />
+      {/* Chapter0 */}
+      {/* Chapter0 */}
+      {/* Chapter0 */}
+      <h2>Chapter0</h2>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter04/components");
+        }}
+      >
+        1{")"} 리액트
+      </p>
+      <br />
     </>
   );
 }

@@ -1,18 +1,18 @@
 import itemsDummy from "./itemsDummy";
-import "./style/style.css";
+import style from "./style/style.module.css";
 
 const Card = function ({ productName, price, thumbnailImg }) {
   const url = "http://test.api.weniv.co.kr/" + thumbnailImg;
 
   return (
-    <li className="product-item">
-      <div className="product-img">
+    <li className={style["product-item"]}>
+      <div className={style["product-img"]}>
         <img src={url} alt="img" />
       </div>
-      <strong className="product-name sl-ellipsis">{productName}</strong>
-      <button className="like-btn"></button>
-      <div className="product-price">
-        <strong className="price m-price">
+      <strong className={`${style["product-name"]} ${style["sl-ellipsis"]}`}>{productName}</strong>
+      <button className={style["like-btn"]}></button>
+      <div className={style["product-price"]}>
+        <strong className={`${style["price"]} ${style["m-price"]}`}>
           {price}
           <span>원</span>
         </strong>
@@ -33,8 +33,8 @@ const Product = function () {
 
 export default function SellGoods() {
   return (
-    <main className="product">
-      <ul className="product-list">
+    <main className={style["product"]}>
+      <ul className={style["product-list"]}>
         <Product />
       </ul>
     </main>
