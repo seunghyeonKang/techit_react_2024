@@ -1,18 +1,20 @@
 import itemsDummy from "./itemsDummy";
-import style from "./style/style.module.css";
+import styles from "./style/style.module.css";
 
 const Card = function ({ productName, price, thumbnailImg }) {
   const url = "http://test.api.weniv.co.kr/" + thumbnailImg;
 
   return (
-    <li className={style["product-item"]}>
-      <div className={style["product-img"]}>
+    <li className={styles["product-item"]}>
+      <div className={styles["product-img"]}>
         <img src={url} alt="img" />
       </div>
-      <strong className={`${style["product-name"]} ${style["sl-ellipsis"]}`}>{productName}</strong>
-      <button className={style["like-btn"]}></button>
-      <div className={style["product-price"]}>
-        <strong className={`${style["price"]} ${style["m-price"]}`}>
+      <strong className={`${styles["product-name"]} ${styles["sl-ellipsis"]}`}>
+        {productName}
+      </strong>
+      <button className={styles["like-btn"]}></button>
+      <div className={styles["product-price"]}>
+        <strong className={`${styles["price"]} ${styles["m-price"]}`}>
           {price}
           <span>원</span>
         </strong>
@@ -33,8 +35,8 @@ const Product = function () {
 
 export default function SellGoods() {
   return (
-    <main className={style["product"]}>
-      <ul className={style["product-list"]}>
+    <main className={styles["product"]}>
+      <ul className={styles["product-list"]}>
         <Product />
       </ul>
     </main>
