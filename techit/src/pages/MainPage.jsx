@@ -78,6 +78,13 @@ export default function MainPage() {
       >
         4{")"} 데이타 렌더링 - 구조 분해 할당
       </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter04/sell-goods");
+        }}
+      >
+        5{")"} 상품 판매 사이트
+      </p>
       <br />
     </>
   );

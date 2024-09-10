@@ -9,6 +9,7 @@ import Components from "./pages/chapter04/Components";
 import MyResume from "./pages/chapter04/Resume";
 import ColorTextPage from "./pages/chapter04/ColorText/ColorTextPage";
 import DatasPage from "./pages/chapter04/Datas";
+import SellGoods from "./pages/chapter04/SellGoods/SellGoods";
 
 export default function Router() {
   return (
@@ -28,6 +29,7 @@ export default function Router() {
         <Route path="/techit_react_2024/chapter04/my-resume" element={<MyResume />} />
         <Route path="/techit_react_2024/chapter04/color-text" element={<ColorTextPage />} />
         <Route path="/techit_react_2024/chapter04/datas-rendering" element={<DatasPage />} />
+        <Route path="/techit_react_2024/chapter04/sell-goods" element={<SellGoods />} />
 
         {/* chapter0 */}
         {/* chapter0 */}
