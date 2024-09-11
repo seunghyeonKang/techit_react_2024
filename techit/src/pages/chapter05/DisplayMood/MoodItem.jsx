@@ -1,5 +1,8 @@
 import styled from "styled-components";
 
+const ListDiv = styled.li`
+  list-style: none;
+`;
 const MoodButton = styled.button`
   margin: 8px;
   padding: 12px;
@@ -28,8 +31,10 @@ export default function MoodItem({ moodNum, setMoodNum, moodContent, setMood, mo
   }
 
   return (
-    <MoodButton onClick={clickMood} className={moodNum === moodId ? "selected" : ""}>
-      {moodContent}
-    </MoodButton>
+    <ListDiv>
+      <MoodButton onClick={clickMood} className={moodNum === moodId ? "selected" : ""}>
+        {moodContent}
+      </MoodButton>
+    </ListDiv>
   );
 }

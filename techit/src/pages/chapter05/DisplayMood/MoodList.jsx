@@ -2,7 +2,10 @@ import { useState } from "react";
 import styled from "styled-components";
 import MoodItem from "./MoodItem";
 
-const ListDiv = styled.div`
+const ListDiv = styled.ul`
+  margin: 0;
+  padding: 0;
+
   display: flex;
   flex-direction: column;
   align-items: center;
