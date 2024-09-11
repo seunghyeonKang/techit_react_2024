@@ -10,7 +10,9 @@ import MyResume from "./pages/chapter04/Resume";
 import ColorTextPage from "./pages/chapter04/ColorText/ColorTextPage";
 import DatasPage from "./pages/chapter04/Datas";
 import SellGoods from "./pages/chapter04/SellGoods/SellGoods";
-import ClikeLike from "./pages/chapter05/ClickLike";
+import ClickLike from "./pages/chapter05/ClickLike";
+import IsLike from "./pages/chapter05/IsLike";
+import DisplayMood from "./pages/chapter05/DisplayMood/DisplayMood";
 
 export default function Router() {
   return (
@@ -33,7 +35,9 @@ export default function Router() {
         <Route path="/techit_react_2024/chapter04/sell-goods" element={<SellGoods />} />
 
         {/* chapter05 */}
-        <Route path="/techit_react_2024/chapter05/like-button" element={<ClikeLike />} />
+        <Route path="/techit_react_2024/chapter05/like-button-num" element={<ClickLike />} />
+        <Route path="/techit_react_2024/chapter05/like-button-bool" element={<IsLike />} />
+        <Route path="/techit_react_2024/chapter05/display-mood" element={<DisplayMood />} />
 
         {/* chapter0 */}
         {/* chapter0 */}

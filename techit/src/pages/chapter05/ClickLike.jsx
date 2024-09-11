@@ -1,12 +1,18 @@
-export default function ClikeLike() {
-  let like = 0;
+import { useState } from "react";
+
+export default function ClickLike() {
+  const [like, setLike] = useState(0);
+
   function clickLike() {
-    like += 1;
+    setLike(like + 1);
   }
+
   return (
     <>
       <button onClick={clickLike}>
-        like <span>{like}</span>
+        <h1>
+          like <span>{like}</span>
+        </h1>
       </button>
     </>
   );

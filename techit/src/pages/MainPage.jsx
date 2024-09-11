@@ -92,10 +92,24 @@ export default function MainPage() {
       <h2>Chapter05</h2>
       <p
         onClick={() => {
-          handleMoveToPage("/chapter05/like-button");
+          handleMoveToPage("/chapter05/like-button-num");
         }}
       >
-        1{")"} 좋아요 버튼
+        1{")"} 좋아요 버튼 - 개수 세기
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter05/like-button-bool");
+        }}
+      >
+        2{")"} 좋아요 버튼 - 취소
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter05/display-mood");
+        }}
+      >
+        3{")"} 오늘의 기분은?
       </p>
       <br />
 
