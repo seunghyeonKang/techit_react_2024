@@ -13,38 +13,28 @@ const ListDiv = styled.ul`
 `;
 
 export default function MoodList({ setMood }) {
+  const moodList = [
+    "기분이 좋아요.",
+    "기분이 정말 좋아요.",
+    "기분이 최고에요!",
+    "기분이 미쳤어요!",
+  ];
   const [moodNum, setMoodNum] = useState(0);
 
   return (
     <ListDiv>
-      <MoodItem
-        moodNum={moodNum}
-        setMoodNum={setMoodNum}
-        setMood={setMood}
-        moodContent={"기분이 좋아요."}
-        moodId={1}
-      />
-      <MoodItem
-        moodNum={moodNum}
-        setMoodNum={setMoodNum}
-        setMood={setMood}
-        moodContent={"기분이 정말 좋아요."}
-        moodId={2}
-      />
-      <MoodItem
-        moodNum={moodNum}
-        setMoodNum={setMoodNum}
-        setMood={setMood}
-        moodContent={"기분이 최고에요!"}
-        moodId={3}
-      />
-      <MoodItem
-        moodNum={moodNum}
-        setMoodNum={setMoodNum}
-        setMood={setMood}
-        moodContent={"기분이 미쳤어요!"}
-        moodId={4}
-      />
+      {moodList.map((moodContent, index) => {
+        return (
+          <MoodItem
+            moodNum={moodNum}
+            setMoodNum={setMoodNum}
+            setMood={setMood}
+            moodContent={moodContent}
+            moodId={index + 1}
+            key={index}
+          />
+        );
+      })}
     </ListDiv>
   );
 }
