@@ -13,6 +13,7 @@ import SellGoods from "./pages/chapter04/SellGoods/SellGoods";
 import ClickLike from "./pages/chapter05/ClickLike";
 import IsLike from "./pages/chapter05/IsLike";
 import DisplayMood from "./pages/chapter05/DisplayMood/DisplayMood";
+import Events from "./pages/chapter06/Events";
 
 export default function Router() {
   return (
@@ -38,6 +39,9 @@ export default function Router() {
         <Route path="/techit_react_2024/chapter05/like-button-num" element={<ClickLike />} />
         <Route path="/techit_react_2024/chapter05/like-button-bool" element={<IsLike />} />
         <Route path="/techit_react_2024/chapter05/display-mood" element={<DisplayMood />} />
+
+        {/* chapter06 */}
+        <Route path="/techit_react_2024/chapter06/events" element={<Events />} />
 
         {/* chapter0 */}
         {/* chapter0 */}

@@ -114,6 +114,18 @@ export default function MainPage() {
       <br />
 
       <hr />
+      {/* Chapter06 */}
+      <h2>Chapter06</h2>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter06/events");
+        }}
+      >
+        1{")"} 이벤트 모음
+      </p>
+      <br />
+
+      <hr />
       {/* Chapter0 */}
       {/* Chapter0 */}
       {/* Chapter0 */}
