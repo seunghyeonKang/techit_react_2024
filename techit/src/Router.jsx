@@ -14,6 +14,9 @@ import ClickLike from "./pages/chapter05/ClickLike";
 import IsLike from "./pages/chapter05/IsLike";
 import DisplayMood from "./pages/chapter05/DisplayMood/DisplayMood";
 import Events from "./pages/chapter06/Events";
+import Login from "./pages/chapter06/Login";
+import HomeNLoginPage from "./pages/chapter06/AdvancedLogin/HomeNLoginPage";
+import AdvancedEvent from "./pages/chapter06/AdvancedEvent";
 
 export default function Router() {
   return (
@@ -42,6 +45,9 @@ export default function Router() {
 
         {/* chapter06 */}
         <Route path="/techit_react_2024/chapter06/events" element={<Events />} />
+        <Route path="/techit_react_2024/chapter06/login" element={<Login />} />
+        <Route path="/techit_react_2024/chapter06/advanced-login" element={<HomeNLoginPage />} />
+        <Route path="/techit_react_2024/chapter06/advanced-event" element={<AdvancedEvent />} />
 
         {/* chapter0 */}
         {/* chapter0 */}

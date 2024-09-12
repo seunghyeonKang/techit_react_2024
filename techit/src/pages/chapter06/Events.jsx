@@ -16,6 +16,8 @@ export default function Events() {
         여기에 마우스를 올려보세요!
       </p>
       <strong>{message}</strong>
+
+      <form action=""></form>
     </>
   );
 }

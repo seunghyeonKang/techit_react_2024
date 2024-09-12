@@ -36,7 +36,7 @@ export default function MainPage() {
           handleMoveToPage("/chapter03/digital-clock");
         }}
       >
-        2{")"} [미니 실습]날짜&시간
+        2{")"} [미니 실습] 날짜&시간
       </p>
       <p
         onClick={() => {
@@ -83,7 +83,7 @@ export default function MainPage() {
           handleMoveToPage("/chapter04/sell-goods");
         }}
       >
-        5{")"} 상품 판매 사이트
+        5{")"} [실습] 상품 판매 사이트
       </p>
       <br />
 
@@ -109,7 +109,7 @@ export default function MainPage() {
           handleMoveToPage("/chapter05/display-mood");
         }}
       >
-        3{")"} 오늘의 기분은?
+        3{")"} [실습] 오늘의 기분은?
       </p>
       <br />
 
@@ -122,6 +122,27 @@ export default function MainPage() {
         }}
       >
         1{")"} 이벤트 모음
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter06/login");
+        }}
+      >
+        2{")"} 로그인 폼
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter06/advanced-login");
+        }}
+      >
+        3{")"} [실습] 메인페이지와 로그인페이지 연계
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter06/advanced-event");
+        }}
+      >
+        4{")"} 이벤트 더 알아보기
       </p>
       <br />
 
