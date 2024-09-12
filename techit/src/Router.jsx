@@ -17,6 +17,7 @@ import Events from "./pages/chapter06/Events";
 import Login from "./pages/chapter06/Login";
 import HomeNLoginPage from "./pages/chapter06/AdvancedLogin/HomeNLoginPage";
 import AdvancedEvent from "./pages/chapter06/AdvancedEvent";
+import AdvancedEventCopyyy from "./pages/chapter06/AdvancedEvent copy";
 
 export default function Router() {
   return (
@@ -48,6 +49,10 @@ export default function Router() {
         <Route path="/techit_react_2024/chapter06/login" element={<Login />} />
         <Route path="/techit_react_2024/chapter06/advanced-login" element={<HomeNLoginPage />} />
         <Route path="/techit_react_2024/chapter06/advanced-event" element={<AdvancedEvent />} />
+        <Route
+          path="/techit_react_2024/chapter06/advanced-event-deleteeeee"
+          element={<AdvancedEventCopyyy />}
+        />
 
         {/* chapter0 */}
         {/* chapter0 */}
