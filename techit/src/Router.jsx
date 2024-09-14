@@ -19,6 +19,7 @@ import HomeNLoginPage from "./pages/chapter06/AdvancedLogin/HomeNLoginPage";
 import AdvancedEvent from "./pages/chapter06/AdvancedEvent";
 import ComponentList from "./pages/chapter07/ComponentList/ComponentList";
 import ConditionalRendering from "./pages/chapter07/ConditionalRendering/ConditionalRendering";
+import PetForm from "./pages/chapter07/PetForm";
 
 export default function Router() {
   return (
@@ -57,6 +58,7 @@ export default function Router() {
           path="/techit_react_2024/chapter07/conditional-rendering"
           element={<ConditionalRendering />}
         />
+        <Route path="/techit_react_2024/chapter07/pet-form" element={<PetForm />} />
 
         {/* chapter0 */}
         {/* chapter0 */}

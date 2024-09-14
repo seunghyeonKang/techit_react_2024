@@ -163,6 +163,13 @@ export default function MainPage() {
       >
         2{")"} [실습] 조건부 렌더링 - 네비게이션 컴포넌트
       </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter07/pet-form");
+        }}
+      >
+        3{")"} [실습, 복습필요] 펫 정보 입력
+      </p>
       <br />
 
       <hr />
