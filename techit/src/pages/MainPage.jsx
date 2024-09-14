@@ -147,16 +147,35 @@ export default function MainPage() {
       <br />
 
       <hr />
+      {/* Chapter07 */}
+      <h2>Chapter07</h2>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter07/component-list");
+        }}
+      >
+        1{")"} 컴포넌트 리스트
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter07/conditional-rendering");
+        }}
+      >
+        2{")"} [실습] 조건부 렌더링 - 네비게이션 컴포넌트
+      </p>
+      <br />
+
+      <hr />
       {/* Chapter0 */}
       {/* Chapter0 */}
       {/* Chapter0 */}
       <h2>Chapter0</h2>
       <p
         onClick={() => {
-          handleMoveToPage("/chapter04/components");
+          handleMoveToPage("/chapter00/components");
         }}
       >
-        1{")"} 리액트
+        1{")"} 작성중...
       </p>
       <br />
     </>

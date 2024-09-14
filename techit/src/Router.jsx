@@ -17,7 +17,8 @@ import Events from "./pages/chapter06/Events";
 import Login from "./pages/chapter06/Login";
 import HomeNLoginPage from "./pages/chapter06/AdvancedLogin/HomeNLoginPage";
 import AdvancedEvent from "./pages/chapter06/AdvancedEvent";
-import AdvancedEventCopyyy from "./pages/chapter06/AdvancedEvent copy";
+import ComponentList from "./pages/chapter07/ComponentList/ComponentList";
+import ConditionalRendering from "./pages/chapter07/ConditionalRendering/ConditionalRendering";
 
 export default function Router() {
   return (
@@ -49,9 +50,12 @@ export default function Router() {
         <Route path="/techit_react_2024/chapter06/login" element={<Login />} />
         <Route path="/techit_react_2024/chapter06/advanced-login" element={<HomeNLoginPage />} />
         <Route path="/techit_react_2024/chapter06/advanced-event" element={<AdvancedEvent />} />
+
+        {/* chapter07 */}
+        <Route path="/techit_react_2024/chapter07/component-list" element={<ComponentList />} />
         <Route
-          path="/techit_react_2024/chapter06/advanced-event-deleteeeee"
-          element={<AdvancedEventCopyyy />}
+          path="/techit_react_2024/chapter07/conditional-rendering"
+          element={<ConditionalRendering />}
         />
 
         {/* chapter0 */}
