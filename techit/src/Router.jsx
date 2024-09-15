@@ -20,6 +20,7 @@ import AdvancedEvent from "./pages/chapter06/AdvancedEvent";
 import ComponentList from "./pages/chapter07/ComponentList/ComponentList";
 import ConditionalRendering from "./pages/chapter07/ConditionalRendering/ConditionalRendering";
 import PetForm from "./pages/chapter07/PetForm";
+import StyleModule from "./pages/chapter08/StyleModule/StyleModule";
 
 export default function Router() {
   return (
@@ -60,8 +61,13 @@ export default function Router() {
         />
         <Route path="/techit_react_2024/chapter07/pet-form" element={<PetForm />} />
 
-        {/* chapter0 */}
-        {/* chapter0 */}
+        {/* chapter08 */}
+        <Route path="/techit_react_2024/chapter08/style-module" element={<StyleModule />} />
+
+        {/* chapter09 */}
+        {/* chapter10 */}
+        {/* chapter11 */}
+        {/* chapter12 */}
       </Routes>
     </BrowserRouter>
   );

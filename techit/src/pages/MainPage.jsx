@@ -173,6 +173,18 @@ export default function MainPage() {
       <br />
 
       <hr />
+      {/* Chapter08 */}
+      <h2>Chapter08</h2>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter08/style-module");
+        }}
+      >
+        1{")"} 스타일 - 모듈.css
+      </p>
+      <br />
+
+      <hr />
       {/* Chapter0 */}
       {/* Chapter0 */}
       {/* Chapter0 */}
