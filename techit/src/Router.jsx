@@ -21,6 +21,8 @@ import ComponentList from "./pages/chapter07/ComponentList/ComponentList";
 import ConditionalRendering from "./pages/chapter07/ConditionalRendering/ConditionalRendering";
 import PetForm from "./pages/chapter07/PetForm";
 import StyleModule from "./pages/chapter08/StyleModule/StyleModule";
+import GlobalStyleCss from "./pages/chapter08/GlobalStyleCss";
+import StyledComponents from "./pages/chapter08/StyledComponents";
 
 export default function Router() {
   return (
@@ -63,6 +65,14 @@ export default function Router() {
 
         {/* chapter08 */}
         <Route path="/techit_react_2024/chapter08/style-module" element={<StyleModule />} />
+        <Route
+          path="/techit_react_2024/chapter08/style-global-reset"
+          element={<GlobalStyleCss />}
+        />
+        <Route
+          path="/techit_react_2024/chapter08/styled-components"
+          element={<StyledComponents />}
+        />
 
         {/* chapter09 */}
         {/* chapter10 */}

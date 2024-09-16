@@ -182,6 +182,20 @@ export default function MainPage() {
       >
         1{")"} 스타일 - 모듈.css
       </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter08/style-global-reset");
+        }}
+      >
+        2{")"} 스타일 - 글로벌스타일, reset.css
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter08/styled-components");
+        }}
+      >
+        3{")"} 스타일 - styled-components
+      </p>
       <br />
 
       <hr />
