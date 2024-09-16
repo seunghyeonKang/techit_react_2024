@@ -23,6 +23,7 @@ import PetForm from "./pages/chapter07/PetForm";
 import StyleModule from "./pages/chapter08/StyleModule/StyleModule";
 import GlobalStyleCss from "./pages/chapter08/GlobalStyleCss";
 import StyledComponents from "./pages/chapter08/StyledComponents";
+import Project10000 from "./pages/chapter09/Project10000";
 
 export default function Router() {
   return (
@@ -75,6 +76,8 @@ export default function Router() {
         />
 
         {/* chapter09 */}
+        <Route path="/techit_react_2024/chapter09/10000" element={<Project10000 />} />
+
         {/* chapter10 */}
         {/* chapter11 */}
         {/* chapter12 */}

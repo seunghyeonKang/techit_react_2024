@@ -199,6 +199,18 @@ export default function MainPage() {
       <br />
 
       <hr />
+      {/* Chapter09 */}
+      <h2>Chapter09</h2>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter09/10000");
+        }}
+      >
+        1{")"} 1만 시간의 법칙
+      </p>
+      <br />
+
+      <hr />
       {/* Chapter0 */}
       {/* Chapter0 */}
       {/* Chapter0 */}
