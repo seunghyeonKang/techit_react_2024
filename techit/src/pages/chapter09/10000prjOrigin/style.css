@@ -1,0 +1,232 @@
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format("woff2"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format("woff"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format("opentype");
+}
+
+#app {
+  font-family: GmarketSansMedium;
+  background-color: #5b2386;
+  color: white;
+  text-align: center;
+  padding-top: 194px;
+}
+
+/* header 스타일 시작 */
+header {
+  margin-bottom: 96px;
+}
+
+.tit-law {
+  display: inline-block;
+  position: relative;
+}
+
+.tit-law .img-tit {
+  position: relative;
+  z-index: 10;
+}
+
+.tit-law::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 225px;
+  height: 225px;
+  margin: -112px 0 0 -112px;
+  background-image: url("../images/title_bg.png");
+  background-position: center;
+}
+
+.img-txt {
+  max-width: 486px;
+  margin: 125px auto 84px;
+}
+
+.txt-desc {
+  position: relative;
+  max-width: 475px;
+  margin: 0 auto;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.txt-desc .tit-desc {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.txt-desc::before,
+.txt-desc::after {
+  position: absolute;
+  top: 50%;
+  content: "";
+  width: 37px;
+  height: 32px;
+  margin-top: -16px;
+}
+
+.txt-desc::before {
+  left: -10px;
+  background-image: url("../images/txt-left.png");
+}
+
+.txt-desc::after {
+  right: -10px;
+  background-image: url("../images/txt-right.png");
+}
+
+/* header 스타일 끝! */
+
+/* main 스타일 시작! */
+
+main {
+  margin-bottom: 130px;
+}
+
+.cont-inp,
+.cont-result {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.cont-inp {
+  margin-bottom: 150px;
+}
+
+.cont-inp .txt-wannabe {
+  margin-bottom: 30px;
+}
+
+.cont-inp .txt-time {
+  margin-bottom: 116px;
+}
+
+.cont-inp .txt-wannabe input,
+.cont-inp .txt-time input {
+  width: 224px;
+  height: 53px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.cont-inp .btn-exc {
+  position: relative;
+}
+
+.cont-inp .btn-exc::after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: -72px;
+  bottom: -20px;
+  width: 64px;
+  height: 72px;
+  background-image: url("../images/hand.png");
+}
+
+.cont-result .txt-wannabe {
+  line-height: 68px;
+  margin-bottom: 127px;
+}
+
+.cont-result .txt-wannabe strong {
+  font-size: 72px;
+  font-family: GmarketSansBold;
+  vertical-align: top;
+}
+
+.btn-share {
+  background-color: #fff;
+  margin-left: 18px;
+}
+
+/* main 스타일 끝! */
+
+/* footer 스타일 시작!! */
+.cont-footer {
+  padding-bottom: 70px;
+  font-family: Noto Sans KR;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: center;
+}
+
+.cont-footer .img-footer {
+  width: 125px;
+  margin: 0 auto 20px;
+}
+
+/* footer 스타일 끝!! */
+
+/* modal 스타일 시작! */
+
+#modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#modal .modal-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 68px 100px;
+  background-color: #fff;
+  color: #5b2386;
+  border-radius: 20px;
+}
+
+#modal .modal-wrap h2 {
+  font-size: 60px;
+}
+
+#modal .modal-wrap h3 {
+  font-size: 30px;
+}
+
+#modal img {
+  max-width: 342px;
+}
+
+#modal .btn-close {
+  margin: 20px 0;
+}
+
+#modal p {
+  color: #747474;
+  font-size: 13px;
+}
+
+/* modal 스타일 끝! */

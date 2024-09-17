@@ -127,3 +127,27 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+img {
+  display: block;
+  width: 100%;
+}
+button {
+  padding: 21px 49px;
+  font-size: 24px;
+  line-height: 24px;
+  font-family: GmarketSansBold;
+  color: #5b2386;
+  background-color: #fcee21;
+  border-radius: 56px;
+  cursor: pointer;
+  border: none;
+}
+/* Accessibility */
+.a11y {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
