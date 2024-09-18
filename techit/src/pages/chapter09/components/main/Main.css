@@ -1,0 +1,67 @@
+/* main 스타일 시작! */
+
+main {
+  margin-bottom: 130px;
+}
+
+.cont-inp,
+.cont-result {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.cont-inp {
+  margin-bottom: 150px;
+}
+
+.cont-inp .txt-wannabe {
+  margin-bottom: 30px;
+}
+
+.cont-inp .txt-time {
+  margin-bottom: 116px;
+}
+
+.cont-inp .txt-wannabe input,
+.cont-inp .txt-time input {
+  width: 224px;
+  height: 53px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.cont-inp .btn-exc {
+  position: relative;
+}
+
+.cont-inp .btn-exc::after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: -72px;
+  bottom: -20px;
+  width: 64px;
+  height: 72px;
+  background-image: url("../../images/hand.png");
+}
+
+.cont-result .txt-wannabe {
+  line-height: 68px;
+  margin-bottom: 127px;
+}
+
+.cont-result .txt-wannabe strong {
+  font-size: 72px;
+  font-family: GmarketSansBold;
+  vertical-align: top;
+}
+
+.btn-share {
+  background-color: #fff;
+  margin-left: 18px;
+}
+
+/* main 스타일 끝! */

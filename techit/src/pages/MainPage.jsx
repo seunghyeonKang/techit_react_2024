@@ -206,7 +206,7 @@ export default function MainPage() {
           handleMoveToPage("/chapter09/10000");
         }}
       >
-        1{")"} 1만 시간의 법칙
+        1{")"} [실습] 1만 시간의 법칙
       </p>
       <br />
 

@@ -1,0 +1,48 @@
+/* modal 스타일 시작! */
+
+#modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 20;
+}
+
+#modal .modal-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 68px 100px;
+  background-color: #fff;
+  color: #5b2386;
+  border-radius: 20px;
+}
+
+#modal .modal-wrap h2 {
+  font-size: 60px;
+}
+
+#modal .modal-wrap h3 {
+  font-size: 30px;
+}
+
+#modal img {
+  max-width: 342px;
+}
+
+#modal .btn-close {
+  margin: 20px 0;
+}
+
+#modal p {
+  color: #747474;
+  font-size: 13px;
+}
+
+/* modal 스타일 끝! */
