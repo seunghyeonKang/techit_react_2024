@@ -24,6 +24,7 @@ import StyleModule from "./pages/chapter08/StyleModule/StyleModule";
 import GlobalStyleCss from "./pages/chapter08/GlobalStyleCss";
 import StyledComponents from "./pages/chapter08/StyledComponents";
 import Project10000 from "./pages/chapter09/Project10000";
+import MyComponent from "./pages/chapter10/MyComponent";
 
 export default function Router() {
   return (
@@ -79,6 +80,8 @@ export default function Router() {
         <Route path="/techit_react_2024/chapter09/10000" element={<Project10000 />} />
 
         {/* chapter10 */}
+        <Route path="/techit_react_2024/chapter10/class-components" element={<MyComponent />} />
+
         {/* chapter11 */}
         {/* chapter12 */}
       </Routes>

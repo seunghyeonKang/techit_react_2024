@@ -211,13 +211,35 @@ export default function MainPage() {
       <br />
 
       <hr />
-      {/* Chapter0 */}
-      {/* Chapter0 */}
-      {/* Chapter0 */}
-      <h2>Chapter0</h2>
+      {/* Chapter10 */}
+      <h2>Chapter10</h2>
       <p
         onClick={() => {
-          handleMoveToPage("/chapter00/components");
+          handleMoveToPage("/chapter10/class-components");
+        }}
+      >
+        1{")"} 라이프 사이클 - 클래스 컴포넌트
+      </p>
+      <br />
+
+      <hr />
+      {/* Chapter11 */}
+      <h2>Chapter11</h2>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter00");
+        }}
+      >
+        1{")"} 작성중...
+      </p>
+      <br />
+
+      <hr />
+      {/* Chapter12 */}
+      <h2>Chapter12</h2>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter00");
         }}
       >
         1{")"} 작성중...
