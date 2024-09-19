@@ -225,7 +225,14 @@ export default function MainPage() {
           handleMoveToPage("/chapter10/class-components-lifecyle");
         }}
       >
-        1{")"} 라이프 사이클 - 클래스 컴포넌트 lifecycle 메서드 로그
+        2{")"} 라이프 사이클 - 클래스 컴포넌트 lifecycle 메서드 콘솔로그보기
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter10/function-components-lifecyle");
+        }}
+      >
+        3{")"} 라이프 사이클 - Hook Flow(useEffect, useLayoutEffect)
       </p>
       <br />
 
