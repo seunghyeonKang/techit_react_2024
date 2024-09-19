@@ -220,6 +220,13 @@ export default function MainPage() {
       >
         1{")"} 라이프 사이클 - 클래스 컴포넌트
       </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter10/class-components-lifecyle");
+        }}
+      >
+        1{")"} 라이프 사이클 - 클래스 컴포넌트 lifecycle 메서드 로그
+      </p>
       <br />
 
       <hr />
