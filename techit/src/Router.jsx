@@ -27,6 +27,7 @@ import Project10000 from "./pages/chapter09/Project10000";
 import MyComponent from "./pages/chapter10/MyComponent";
 import ClassComp from "./pages/chapter10/ClassComp";
 import FuncComp from "./pages/chapter10/FuncComp";
+import ReactRouter from "./pages/chapter11/ReactRouter";
 
 export default function Router() {
   return (
@@ -61,38 +62,25 @@ export default function Router() {
 
         {/* chapter07 */}
         <Route path="/techit_react_2024/chapter07/component-list" element={<ComponentList />} />
-        <Route
-          path="/techit_react_2024/chapter07/conditional-rendering"
-          element={<ConditionalRendering />}
-        />
+        <Route path="/techit_react_2024/chapter07/conditional-rendering" element={<ConditionalRendering />} />
         <Route path="/techit_react_2024/chapter07/pet-form" element={<PetForm />} />
 
         {/* chapter08 */}
         <Route path="/techit_react_2024/chapter08/style-module" element={<StyleModule />} />
-        <Route
-          path="/techit_react_2024/chapter08/style-global-reset"
-          element={<GlobalStyleCss />}
-        />
-        <Route
-          path="/techit_react_2024/chapter08/styled-components"
-          element={<StyledComponents />}
-        />
+        <Route path="/techit_react_2024/chapter08/style-global-reset" element={<GlobalStyleCss />} />
+        <Route path="/techit_react_2024/chapter08/styled-components" element={<StyledComponents />} />
 
         {/* chapter09 */}
         <Route path="/techit_react_2024/chapter09/10000" element={<Project10000 />} />
 
         {/* chapter10 */}
         <Route path="/techit_react_2024/chapter10/class-components" element={<MyComponent />} />
-        <Route
-          path="/techit_react_2024/chapter10/class-components-lifecyle"
-          element={<ClassComp />}
-        />
-        <Route
-          path="/techit_react_2024/chapter10/function-components-lifecyle"
-          element={<FuncComp />}
-        />
+        <Route path="/techit_react_2024/chapter10/class-components-lifecyle" element={<ClassComp />} />
+        <Route path="/techit_react_2024/chapter10/function-components-lifecyle" element={<FuncComp />} />
 
         {/* chapter11 */}
+        <Route path="/techit_react_2024/chapter11/router" element={<ReactRouter />} />
+
         {/* chapter12 */}
       </Routes>
     </BrowserRouter>

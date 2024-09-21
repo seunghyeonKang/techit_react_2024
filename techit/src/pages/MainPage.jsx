@@ -241,10 +241,10 @@ export default function MainPage() {
       <h2>Chapter11</h2>
       <p
         onClick={() => {
-          handleMoveToPage("/chapter00");
+          handleMoveToPage("/chapter11/router");
         }}
       >
-        1{")"} 작성중...
+        1{")"} (error) 리액트 라우터 기초
       </p>
       <br />
 
