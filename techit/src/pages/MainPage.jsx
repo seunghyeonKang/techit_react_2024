@@ -239,13 +239,8 @@ export default function MainPage() {
       <hr />
       {/* Chapter11 */}
       <h2>Chapter11</h2>
-      <p
-        onClick={() => {
-          handleMoveToPage("/chapter11/router");
-        }}
-      >
-        1{")"} (error) 리액트 라우터 기초
-      </p>
+      <p>1{")"} 리액트 라우터 (App.js로 직접 연결하기)</p>
+      <p>2{")"} 리액트 라우터 퀴즈 (App.js로 직접 연결하기)</p>
       <br />
 
       <hr />

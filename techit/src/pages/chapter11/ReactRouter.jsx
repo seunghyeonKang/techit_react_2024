@@ -54,6 +54,8 @@ function Blog() {
 function HojunIndex() {
   const location = useLocation();
   console.log(location);
+  const pathID = location.pathname.split("/")[2];
+  console.log(pathID);
   return <h1>hello Hojun index</h1>;
 }
 function HojunOne() {
