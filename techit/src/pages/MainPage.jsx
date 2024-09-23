@@ -248,10 +248,24 @@ export default function MainPage() {
       <h2>Chapter12</h2>
       <p
         onClick={() => {
+          handleMoveToPage("/chapter12/useEffect-counter");
+        }}
+      >
+        1{")"} useEffect - 카운터
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter12/useEffect-time");
+        }}
+      >
+        2{")"} useEffect - 디지털 시계
+      </p>
+      <p
+        onClick={() => {
           handleMoveToPage("/chapter00");
         }}
       >
-        1{")"} 작성중...
+        1{")"} 작성중
       </p>
       <br />
     </>
