@@ -283,6 +283,20 @@ export default function MainPage() {
       </p>
       <p
         onClick={() => {
+          handleMoveToPage("/chapter12/useMemo-FibonacciSeries");
+        }}
+      >
+        3-0{")"} useMemo - 피모나치 수열
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter12/useMemo");
+        }}
+      >
+        3-{")"} useMemo - 작성중
+      </p>
+      <p
+        onClick={() => {
           handleMoveToPage("/chapter12/0000");
         }}
       >

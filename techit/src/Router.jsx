@@ -34,6 +34,8 @@ import Time from "./pages/chapter12/01useEffect/Time";
 import UseRef from "./pages/chapter12/02useRef/UseRef";
 import LoginWithout from "./pages/chapter12/02useRef/LoginWithout";
 import LoginUseRef from "./pages/chapter12/02useRef/LoginUseRef";
+import UseMemo from "./pages/chapter12/03useMemo/UseMemo";
+import FibonacciSeries from "./pages/chapter12/03useMemo/FibonacciSeries";
 
 export default function Router() {
   return (
@@ -112,6 +114,11 @@ export default function Router() {
           element={<LoginWithout />}
         />
         <Route path="/techit_react_2024/chapter12/login-with-useRef" element={<LoginUseRef />} />
+        <Route
+          path="/techit_react_2024/chapter12/useMemo-FibonacciSeries"
+          element={<FibonacciSeries />}
+        />
+        <Route path="/techit_react_2024/chapter12/useMemo" element={<UseMemo />} />
       </Routes>
     </BrowserRouter>
   );
