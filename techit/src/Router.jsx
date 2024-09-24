@@ -31,6 +31,9 @@ import ReactRouter from "./pages/chapter11/ReactRouter";
 import RouterQuiz from "./pages/chapter11/RouterQuiz";
 import Counter from "./pages/chapter12/01useEffect/Counter";
 import Time from "./pages/chapter12/01useEffect/Time";
+import UseRef from "./pages/chapter12/02useRef/UseRef";
+import LoginWithout from "./pages/chapter12/02useRef/LoginWithout";
+import LoginUseRef from "./pages/chapter12/02useRef/LoginUseRef";
 
 export default function Router() {
   return (
@@ -103,6 +106,12 @@ export default function Router() {
         {/* chapter12 */}
         <Route path="/techit_react_2024/chapter12/useEffect-counter" element={<Counter />} />
         <Route path="/techit_react_2024/chapter12/useEffect-time" element={<Time />} />
+        <Route path="/techit_react_2024/chapter12/useRef" element={<UseRef />} />
+        <Route
+          path="/techit_react_2024/chapter12/login-without-useRef"
+          element={<LoginWithout />}
+        />
+        <Route path="/techit_react_2024/chapter12/login-with-useRef" element={<LoginUseRef />} />
       </Routes>
     </BrowserRouter>
   );

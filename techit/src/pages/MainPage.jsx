@@ -251,21 +251,42 @@ export default function MainPage() {
           handleMoveToPage("/chapter12/useEffect-counter");
         }}
       >
-        1{")"} useEffect - 카운터
+        1-1{")"} useEffect - 카운터
       </p>
       <p
         onClick={() => {
           handleMoveToPage("/chapter12/useEffect-time");
         }}
       >
-        2{")"} useEffect - 디지털 시계
+        1-2{")"} useEffect - 디지털 시계
       </p>
       <p
         onClick={() => {
-          handleMoveToPage("/chapter00");
+          handleMoveToPage("/chapter12/useRef");
         }}
       >
-        1{")"} 작성중
+        2-1{")"} useRef 기초 - 다른 변수와의 차이점
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter12/login-without-useRef");
+        }}
+      >
+        2-2{")"} useRef - useRef없이 로그인 페이지 만들기
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter12/login-with-useRef");
+        }}
+      >
+        2-3{")"} useRef - useRef로 로그인 페이지 만들기
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter12/0000");
+        }}
+      >
+        -{")"} 작성중
       </p>
       <br />
     </>
