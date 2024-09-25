@@ -293,14 +293,28 @@ export default function MainPage() {
           handleMoveToPage("/chapter12/useMemo");
         }}
       >
-        3-{")"} useMemo - 작성중
+        3-1{")"} useMemo - 과부하 버튼
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter12/useContext");
+        }}
+      >
+        4-1{")"} useContext - 기본
+      </p>
+      <p
+        onClick={() => {
+          handleMoveToPage("/chapter12/useContext-expert");
+        }}
+      >
+        4-2{")"} useContext - 파일 분리
       </p>
       <p
         onClick={() => {
           handleMoveToPage("/chapter12/0000");
         }}
       >
-        -{")"} 작성중
+        5-1{")"} ajax 통신 실습
       </p>
       <br />
     </>

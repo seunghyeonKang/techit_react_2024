@@ -36,6 +36,8 @@ import LoginWithout from "./pages/chapter12/02useRef/LoginWithout";
 import LoginUseRef from "./pages/chapter12/02useRef/LoginUseRef";
 import UseMemo from "./pages/chapter12/03useMemo/UseMemo";
 import FibonacciSeries from "./pages/chapter12/03useMemo/FibonacciSeries";
+import UseContext from "./pages/chapter12/04useContext/UseContext";
+import UseContextExpert from "./pages/chapter12/04useContext/UseContextExpert";
 
 export default function Router() {
   return (
@@ -108,17 +110,25 @@ export default function Router() {
         {/* chapter12 */}
         <Route path="/techit_react_2024/chapter12/useEffect-counter" element={<Counter />} />
         <Route path="/techit_react_2024/chapter12/useEffect-time" element={<Time />} />
+
         <Route path="/techit_react_2024/chapter12/useRef" element={<UseRef />} />
         <Route
           path="/techit_react_2024/chapter12/login-without-useRef"
           element={<LoginWithout />}
         />
         <Route path="/techit_react_2024/chapter12/login-with-useRef" element={<LoginUseRef />} />
+
         <Route
           path="/techit_react_2024/chapter12/useMemo-FibonacciSeries"
           element={<FibonacciSeries />}
         />
         <Route path="/techit_react_2024/chapter12/useMemo" element={<UseMemo />} />
+
+        <Route path="/techit_react_2024/chapter12/useContext" element={<UseContext />} />
+        <Route
+          path="/techit_react_2024/chapter12/useContext-expert"
+          element={<UseContextExpert />}
+        />
       </Routes>
     </BrowserRouter>
   );
