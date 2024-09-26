@@ -311,7 +311,7 @@ export default function MainPage() {
       </p>
       <p
         onClick={() => {
-          handleMoveToPage("/chapter12/0000");
+          handleMoveToPage("/chapter12/api-useEffect-fetch");
         }}
       >
         5-1{")"} ajax 통신 실습

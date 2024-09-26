@@ -38,6 +38,7 @@ import UseMemo from "./pages/chapter12/03useMemo/UseMemo";
 import FibonacciSeries from "./pages/chapter12/03useMemo/FibonacciSeries";
 import UseContext from "./pages/chapter12/04useContext/UseContext";
 import UseContextExpert from "./pages/chapter12/04useContext/UseContextExpert";
+import UseEffectFetch from "./pages/chapter12/05api/UseEffectFetch";
 
 export default function Router() {
   return (
@@ -72,36 +73,21 @@ export default function Router() {
 
         {/* chapter07 */}
         <Route path="/techit_react_2024/chapter07/component-list" element={<ComponentList />} />
-        <Route
-          path="/techit_react_2024/chapter07/conditional-rendering"
-          element={<ConditionalRendering />}
-        />
+        <Route path="/techit_react_2024/chapter07/conditional-rendering" element={<ConditionalRendering />} />
         <Route path="/techit_react_2024/chapter07/pet-form" element={<PetForm />} />
 
         {/* chapter08 */}
         <Route path="/techit_react_2024/chapter08/style-module" element={<StyleModule />} />
-        <Route
-          path="/techit_react_2024/chapter08/style-global-reset"
-          element={<GlobalStyleCss />}
-        />
-        <Route
-          path="/techit_react_2024/chapter08/styled-components"
-          element={<StyledComponents />}
-        />
+        <Route path="/techit_react_2024/chapter08/style-global-reset" element={<GlobalStyleCss />} />
+        <Route path="/techit_react_2024/chapter08/styled-components" element={<StyledComponents />} />
 
         {/* chapter09 */}
         <Route path="/techit_react_2024/chapter09/10000" element={<Project10000 />} />
 
         {/* chapter10 */}
         <Route path="/techit_react_2024/chapter10/class-components" element={<MyComponent />} />
-        <Route
-          path="/techit_react_2024/chapter10/class-components-lifecyle"
-          element={<ClassComp />}
-        />
-        <Route
-          path="/techit_react_2024/chapter10/function-components-lifecyle"
-          element={<FuncComp />}
-        />
+        <Route path="/techit_react_2024/chapter10/class-components-lifecyle" element={<ClassComp />} />
+        <Route path="/techit_react_2024/chapter10/function-components-lifecyle" element={<FuncComp />} />
 
         {/* chapter11 */}
         <Route path="/techit_react_2024/chapter11/router" element={<ReactRouter />} />
@@ -112,23 +98,16 @@ export default function Router() {
         <Route path="/techit_react_2024/chapter12/useEffect-time" element={<Time />} />
 
         <Route path="/techit_react_2024/chapter12/useRef" element={<UseRef />} />
-        <Route
-          path="/techit_react_2024/chapter12/login-without-useRef"
-          element={<LoginWithout />}
-        />
+        <Route path="/techit_react_2024/chapter12/login-without-useRef" element={<LoginWithout />} />
         <Route path="/techit_react_2024/chapter12/login-with-useRef" element={<LoginUseRef />} />
 
-        <Route
-          path="/techit_react_2024/chapter12/useMemo-FibonacciSeries"
-          element={<FibonacciSeries />}
-        />
+        <Route path="/techit_react_2024/chapter12/useMemo-FibonacciSeries" element={<FibonacciSeries />} />
         <Route path="/techit_react_2024/chapter12/useMemo" element={<UseMemo />} />
 
         <Route path="/techit_react_2024/chapter12/useContext" element={<UseContext />} />
-        <Route
-          path="/techit_react_2024/chapter12/useContext-expert"
-          element={<UseContextExpert />}
-        />
+        <Route path="/techit_react_2024/chapter12/useContext-expert" element={<UseContextExpert />} />
+
+        <Route path="/techit_react_2024/chapter12/api-useEffect-fetch" element={<UseEffectFetch />} />
       </Routes>
     </BrowserRouter>
   );
