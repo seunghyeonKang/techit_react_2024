@@ -6,8 +6,7 @@
 
 ### 폴더 구조
 
-- pages > chapter > 프로젝트 파일
-- router로 페이지네이션
+- 리액트 프로젝트 파일 > pages > chapter03~12 > 실습 코드
 
 ### 배포 링크
 https://seunghyeonkang.github.io/techit_react_2024/
